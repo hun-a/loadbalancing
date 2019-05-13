@@ -9,6 +9,6 @@ http.createServer((req, res) => {
   console.log(`Started ${pid}`);
 });
 
-setTimeout(() => {
-  throw new Error("Oppts")
-}, Math.ceil(Math.random() * 3) * 1000);
+// setTimeout(() => {
+//   throw new Error("Oppts")
+// }, Math.ceil(Math.random() * 3) * 1000);
